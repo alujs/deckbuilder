@@ -1,0 +1,27 @@
+.card {
+  flex: auto;
+  width: auto;
+  display: flex;
+  overflow: hidden;
+  height: 25px;
+  flex-direction: row;
+}
+
+.pic  {
+  height: 200px;
+  transition: .8s opacity;
+  opacity: 0.8;
+}
+.pic:hover {
+  opacity: 1;
+}
+
+.opts {
+ width: 100%;
+ display: flex;
+
+}
+
+.optb {
+
+}

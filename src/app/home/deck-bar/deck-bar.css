@@ -1,0 +1,71 @@
+
+aside {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 17%;
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+  left: 83%;
+  top: 10%;
+  color: #805507;
+  background: #edece8;
+  border-top: 4px groove rgba(255, 255, 255, 0.51);
+  border-left: 4px groove rgba(255, 255, 255, 0.51);
+}
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
+.deck-name {
+
+}
+
+.deck-container {
+  overflow-y: scroll;
+}
+
+.deck-selector {
+
+}
+
+.manaChart {
+  overflow: hidden;
+}
+
+.powerCurve {
+
+}
+
+.container {
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.containerLast {
+  height: auto;
+  margin-bottom: 50%;
+}
+
+
+.chart {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+figcaption {
+  text-align: center;
+}

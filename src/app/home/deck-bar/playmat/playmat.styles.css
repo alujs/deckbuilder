@@ -1,0 +1,19 @@
+.mat {
+  background: black;
+  z-index: 555;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: scroll;
+}
+
+.frame {
+  position: relative;
+  width: 155px;
+  height: 200px;
+  float: left;
+}
+.pic {
+  width: 100%;
+  height: 100%;
+}

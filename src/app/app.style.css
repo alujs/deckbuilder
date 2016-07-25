@@ -1,0 +1,44 @@
+html, body{
+  height: 100%;
+  font-family: Helvetica;
+  margin: 0px;
+  background-color: rgb(248, 244, 236);
+  color: #805507;
+}
+
+span.active {
+  background-color: gray;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+button {
+  border: none;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  border-radius: 5px;
+  display: inline-block;
+  /*padding: 6px 12px;*/
+  margin-bottom: 2px;
+  margin-left: 2px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}

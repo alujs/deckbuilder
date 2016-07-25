@@ -1,0 +1,50 @@
+input[type="text"] {
+  border: none;
+  font-size: 18px;
+  outline: 0;
+  border-radius: 5px;
+  text-align: center;
+  color: #1616b5;
+}
+
+.container {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background-color: #f0eee9;
+  top: 0px;
+  height: 8%;
+  border-bottom: 4px groove rgba(255, 255, 255, 0.51);
+}
+
+.search {
+  position: absolute;
+  top: 37%;
+  left: 41%;
+}
+
+.glass {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.avatar {
+  width: 20px;
+  height: 20px;
+}
+
+.profile {
+  position: absolute;
+  left: 80%;
+  top: 30%;
+  width: 20%;
+}
+
+.profileName {
+  left: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  font-family: cursive;
+  color: #c58c24;
+}

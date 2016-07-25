@@ -1,0 +1,37 @@
+.container {
+  width: 69%;
+  position: absolute;
+  left: 15%;
+  top: 10%;
+  font-size: 0;
+  display: flex;
+  flex-flow: row wrap;
+  padding: .5vw;
+  -webkit-align-items: center;
+   align-items: center;
+  -webkit-justify-content: center;
+   justify-content: center;     
+}
+
+.area-container {
+  width: 230px;
+  margin: 10px 10px;
+  font-size: 10px;
+}
+
+.loading {
+  z-index: 500;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 30px;
+  line-height: 30;
+  -webkit-transition: opacity 3s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out;
+  -ms-transition: opacity 3s ease-in-out;
+  -o-transition: opacity 3s ease-in-out;
+}

@@ -1,0 +1,24 @@
+.container {
+  width: 400px;
+  height: 400px;
+  line-height: 200px;
+  position: fixed;
+  top: 40%; 
+  left: 45%;
+  margin-top: -100px;
+  margin-left: -150px;
+  background-color: #f1c40f;
+  border-radius: 5px;
+  text-align: center;
+  z-index: 11;
+}
+  
+.card {
+  width: 100%;
+}
+.shadow {
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  z-index: 10;
+}

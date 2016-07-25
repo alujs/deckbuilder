@@ -1,0 +1,111 @@
+.ico {
+  display: inline-flex;
+  height: 100%;
+  width: 12%;
+  background-color: white;
+  position: relative;
+  padding-right: 15px;
+}
+
+.logIco {
+  height: 100%;
+  width: 130%;
+}
+
+.authContainer {
+  display: flex;
+  position: fixed;
+  color: black;
+  z-index: 20;
+  /*background-color: white;*/
+  left: 35%;
+  top: 35%;
+  width: 25%;
+  height: 25%;
+  /*box-shadow: 1px 1px 11px rgba(128, 128, 128, 0.47);*/
+  font-family: Hevetica;
+}
+
+.avatarContainer {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 43%;
+  top: 3%;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+label {
+  display: inline-flex;
+  text-align: center;
+  height: 25%;
+  width: 90%;
+  left: 30%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 3px;
+  border: 1px solid #f1f1f1;
+  overflow: hidden;
+  transition: .25s ease-in;
+}
+
+button {
+  width: 25%;
+  height: 15%;
+  border: 1px grey;
+  background-color: #5C666F;
+  color: white;
+  position: relative;
+  height: 100%;
+  width: 50%;
+}
+
+input {
+  border: 0px;
+  width: 85%;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding-left: 5%;
+}
+
+.buttonContainer {
+  display: inline-flex;
+  text-align: center;
+  height: 25%;
+  width: 90%;
+  left: 30%;
+  margin-top: 5px;
+  overflow: hidden;
+  transition: .25s ease-in;
+}
+
+.warning {
+  color: white;
+  width: 90%;
+  font-size: 10px;
+  text-align: center;
+}
+
+.signup {
+  width: 25%;
+  height: 15%;
+  border: 1px #5C666F;
+  background-color: rgb(185, 208, 12);
+  color: #5C666F;
+  position: relative;
+  height: 100%;
+  width: 50%;
+}
